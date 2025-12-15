@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 342e89953e469324ba45e46113476410, type: 3}
+  m_Name: StatGrowthConfig
+  m_EditorClassIdentifier: Assembly-CSharp::RPGFramework.Stats.StatGrowthConfig
+  BaseHealth: 100
+  HealthPerVigor: 25
+  BaseStamina: 80
+  StaminaPerEndurance: 10
+  BaseMana: 50
+  ManaPerIntelligence: 8
+  BasePhysicalAttack: 10
+  PhysicalAttackPerStrength: 2
+  PhysicalAttackPerDexterity: 1
+  BaseMagicAttack: 10
+  MagicAttackPerIntelligence: 2.5
+  MagicAttackPerFaith: 1.5
+  BasePhysicalDefense: 5
+  PhysicalDefensePerVigor: 0.5
+  PhysicalDefensePerEndurance: 0.5
+  BaseMagicDefense: 5
+  MagicDefensePerIntelligence: 0.5
+  MagicDefensePerFaith: 1
+  BaseCriticalChance: 0.05
+  CritChancePerDexterity: 0.005
+  MaxCriticalChance: 0.75
+  BaseCriticalDamage: 1.5
+  CritDamagePerDexterity: 0.02
+  BaseAttackSpeed: 1
+  AttackSpeedPerDexterity: 0.01
+  BaseMovementSpeed: 5
+  MovementSpeedPerDexterity: 0.05
+  BaseEquipLoad: 50
+  EquipLoadPerEndurance: 2
+  BasePoise: 10
+  PoisePerEndurance: 1
+  BaseStatusResistance: 10
+  StatusResistancePerArcane: 2
+  BaseItemDiscovery: 100
+  ItemDiscoveryPerArcane: 5
